@@ -1,28 +1,60 @@
-# Create T3 App
+## Documentation for T3 Frontend
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+### Introduction
+Hastesu is an anime streaming service with a T3 frontend. This documentation provides a guide on how to run and use the frontend.
 
-## What's next? How do I make an app with this?
+### Prerequisites
+- Node.js v16.0.0 or later
+- Yarn v1.22.0 or later
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+### Setup
+1. Clone the repository from the Github.
+2. Navigate to the project directory.
+3. Run `yarn install` to install the project dependencies.
+4. Run `yarn dev` to start the development server.
+5. Open `localhost:3000` in your web browser to view the website.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+### Technologies Used
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- trpc
+- Prisma
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+### Project Structure
+- `pages/`: Contains all the Next.js pages for the project.
+- `public/`: Contains all the static assets for the project.
+- `components/`: Contains all the React components used in the project.
+- `styles/`: Contains all the Tailwind CSS styles used in the project.
+- `types/`: Contains all the TypeScript type definitions used in the project.
+- `services/`: Contains all the trpc services used to communicate with the Prisma backend.
 
-## Learn More
+## Project Roadmap
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+### Phase 1: Basic Website Setup (2 weeks)
+- Setup the basic frontend structure using Next.js, TypeScript, and Tailwind CSS.
+- Integrate UI components from ui.shadcn.com.
+- Implement JWT-based authentication with the Rust backend.
+- Implement basic user registration and login features.
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+### Phase 2: Anime Streaming Features (4 weeks)
+- Integrate video streaming functionality using a third-party video player library.
+- Implement anime search and filtering features.
+- Implement user watchlists and progress tracking.
+- Implement anime recommendations based on user preferences.
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+### Phase 3: Social Features (4 weeks)
+- Implement user ratings and reviews for anime.
+- Implement user comments and discussion forums for anime.
+- Implement social sharing features for anime and user profiles.
+- Implement user friend lists and messaging features.
 
-## How do I deploy this?
+### Phase 4: Additional Features (4 weeks)
+- Implement push notifications for user updates and new anime releases.
+- Implement a system for reporting and removing inappropriate content.
+- Implement a subscription-based model for premium features and exclusive content.
+- Implement analytics and tracking for user engagement and website performance.
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+### Conclusion
+The Hastesu anime streaming service is an ambitious project that aims to provide a high-quality streaming experience for anime fans worldwide. With the T3 frontend, TypeScript, trpc, and Prisma backend, we hope to achieve excellent performance and scalability, while maintaining a high degree of security and reliability. By following the project roadmap outlined above, we believe that we can deliver a cutting-edge anime streaming service that will set a new standard in the industry.
